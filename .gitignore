@@ -1,0 +1,42 @@
+# 依赖目录
+node_modules
+.pnp
+.pnp.js
+
+# 测试相关
+coverage
+
+# 生产环境构建产物
+dist
+build
+
+# 环境变量配置（包含敏感信息）
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 编辑器/IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# TypeScript 编译产物
+*.tsbuildinfo
+*.tsbuildinfo.*
+
+# Vite 缓存
+.node_modules/.vite/
+.vite/
+
+# 其他临时文件
+tmp/
+temp/
