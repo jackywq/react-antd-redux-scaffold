@@ -64,7 +64,11 @@ const Login: React.FC = () => {
       
       <Form
         name="login_form"
-        initialValues={{ remember: true }}
+        initialValues={{ 
+          username: 'admin',
+          password: 'admin',
+          remember: true 
+        }}
         onFinish={onFinish}
         layout="vertical"
       >
